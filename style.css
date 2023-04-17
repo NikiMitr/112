@@ -4,14 +4,33 @@ Design by Free CSS Templates
 http://www.freecsstemplates.org
 Released for free under a Creative Commons Attribution 2.5 License
 */
+@font-face{
+	font-family: "Montserrat-SemiBold";
+	src:url("fonts/Montserrat-SemiBold.ttf")
+}
+
+@font-face{
+	font-family: "Montserrat-SemiBoldItalic";
+	src:url("fonts/Montserrat-SemiBoldItalic.ttf")
+}
+@font-face{
+	font-family: "Roboto-Light";
+	src:url("fonts/Roboto-Light.ttf")
+}
+@font-face{
+	font-family: "Roboto-LightItalic";
+	src:url("fonts/Roboto-LightItalic.ttf")
+}
 
 body {
 	margin: 0;
 	padding: 0;
 	background: #000000 url(images/img01.jpg) repeat-x left top;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 12px;
-	color: #4D4D4D;
+	font-family: "Roboto-LightItalic";
+	font-style: normal;
+	font-size: 16px;
+	color: #000;
+	font-weight: 400;
 }
 
 h1, h2, h3 {
@@ -59,8 +78,8 @@ a:hover {
 	width: 1000px;
 	height: 128px;
 	margin: 0 auto;
-	padding: 0px 0px 0px 30px;
-	background: url(images/img02.jpg) no-repeat left top;
+	padding: 0px 0px 10px 30px;
+	background: url(images/img02.jpg) no-repeat left bottom;
 }
 
 /* Logo */
@@ -178,6 +197,43 @@ a:hover {
 }
 
 /* Page */
+.glav{
+	font-family: "Roboto-LightItalic";
+	font-style: normal;
+	font-size: 16px;
+	color: #000;
+	font-weight: 400;
+}
+.glav span{
+	color: red;
+}
+.special span{
+	font-family: "Montserrat-SemiBold";
+	font-style: normal;
+	font-size: 14px;
+	color: #000000cd;
+	font-weight: 400;
+
+}
+.sport{
+	font-family: "Montserrat-SemiBold";
+	font-style: normal;
+	font-size: 14px;
+	color: #000000cd;
+	font-weight: 400;
+	text-align: center;
+}
+.day-znaniy{
+	text-align: center;
+}
+.img-glav{
+	width: 560px;
+	height: auto;
+}
+.img-sport{
+	width: 270px;
+	height: auto;
+}
 
 #page {
 	width: 1000px;
@@ -209,6 +265,11 @@ a:hover {
 }
 
 .post .title {
+	font-family: "Montserrat-SemiBold";
+	font-style: normal;
+	font-size: 16px;
+	color: #000000ae;
+	font-weight: 400;
 	letter-spacing: -.5px;
 	padding: 20px 10px 0px 30px;
 	font-size: 30px;
@@ -243,7 +304,6 @@ a:hover {
 .post .entry {
 	padding: 0px 30px 20px 30px;
 	padding-bottom: 20px;
-	text-align: justify;
 	min-height: 400px;
 }
 
